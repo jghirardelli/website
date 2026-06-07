@@ -3,40 +3,384 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Jack Ghirardelli</title>
+
+  <title>Jack Ghirardelli | Physics & Scientific Computing</title>
+
   <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
-  <header>
-    <h1>Jack Ghirardelli</h1>
-    <p>Applied Physics student | Computational astrophysics | Python & C++</p>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="projects.html">Projects</a>
-      <a href="resume.html">Resume</a>
-      <a href="contact.html">Contact</a>
+  <header class="site-header">
+    <nav class="navbar">
+      <div class="logo">Jack Ghirardelli</div>
+
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#resume">Resume</a>
+        <a href="#research">Research</a>
+        <a href="#projects">Projects</a>
+        <a href="#reports">Lab Reports</a>
+        <a href="#contact">Contact</a>
+      </div>
     </nav>
+
+    <section class="hero">
+      <div class="hero-text">
+        <h1>Jack Ghirardelli</h1>
+        <p class="subtitle">
+          Physics Student | Computational Astrophysics | Scientific Computing
+        </p>
+
+        <p class="intro">
+          I am a Physics student at Sacramento State interested in computational
+          astrophysics, numerical simulation, scientific programming, and data
+          visualization. This website showcases my coding projects, research,
+          lab reports, conference work, and interests.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#resume" class="button primary-button">View Resume</a>
+          <a href="#projects" class="button secondary-button">View Projects</a>
+        </div>
+      </div>
+
+      <div class="hero-image">
+        <!-- Replace assets/profile.jpg with your actual profile image -->
+        <img src="assets/profile.jpg" alt="Profile photo of Jack Ghirardelli" />
+      </div>
+    </section>
   </header>
 
   <main>
-    <section>
+    <section class="section overview-section">
+      <h2>What You Can Find Here</h2>
+
+      <div class="overview-grid">
+        <div class="overview-card">
+          <h3>Research</h3>
+          <p>
+            Computational astrophysics work, galaxy simulation analysis,
+            visualizations, and research poster materials.
+          </p>
+        </div>
+
+        <div class="overview-card">
+          <h3>Scientific Computing</h3>
+          <p>
+            Coding projects from physics and scientific computation courses,
+            including Python and C++ simulations.
+          </p>
+        </div>
+
+        <div class="overview-card">
+          <h3>Lab Reports</h3>
+          <p>
+            Selected academic writing samples and physics lab reports that
+            demonstrate data analysis and scientific communication.
+          </p>
+        </div>
+
+        <div class="overview-card">
+          <h3>Background</h3>
+          <p>
+            Resume, technical skills, hobbies, interests, and contact
+            information.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
       <h2>About Me</h2>
+
       <p>
-        I am a Physics student at Sacramento State with interests in computational
-        astrophysics, simulation, and scientific programming. My work includes
-        Python-based analysis of galaxy simulations and C++ programs for solving
-        physics problems numerically.
+        I am a Physics student at California State University, Sacramento with
+        interests in computational astrophysics, numerical methods, scientific
+        programming, and technical problem-solving. My work includes Python-based
+        analysis of galaxy simulations, C++ programs for solving physics
+        problems numerically, and experimental physics lab reports focused on
+        data analysis and interpretation.
+      </p>
+
+      <p>
+        I enjoy projects that combine physics, programming, visualization, and
+        hands-on problem solving. I am especially interested in work involving
+        simulation, energy systems, research computing, and applied physics.
       </p>
     </section>
 
-    <section>
-      <h2>What I Work On</h2>
-      <ul>
-        <li>Galaxy and star formation simulations</li>
-        <li>Python data analysis and visualization</li>
-        <li>C++ numerical modeling</li>
-        <li>Scientific computing and physics problem-solving</li>
-      </ul>
+    <section id="resume" class="section accent-section">
+      <h2>Resume</h2>
+
+      <p>
+        My resume includes my education, technical skills, research experience,
+        coding projects, and academic background.
+      </p>
+
+      <div class="resume-box">
+        <!-- Replace assets/resume.pdf with your actual resume filename -->
+        <a href="assets/resume.pdf" class="button primary-button" target="_blank">
+          View / Download Resume
+        </a>
+      </div>
+
+      <div class="skills">
+        <h3>Technical Skills</h3>
+
+        <ul class="skill-list">
+          <li>Python</li>
+          <li>C++</li>
+          <li>NumPy</li>
+          <li>Matplotlib</li>
+          <li>Scientific Visualization</li>
+          <li>Numerical Methods</li>
+          <li>Git / GitHub</li>
+          <li>LaTeX</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="research" class="section">
+      <h2>Computational Astrophysics Research</h2>
+
+      <p>
+        This section highlights my computational astrophysics work analyzing disk
+        galaxy simulations and star formation behavior using scientific Python
+        tools.
+      </p>
+
+      <div class="card-grid">
+        <article class="card">
+          <!-- Replace with a real image from your research -->
+          <img src="assets/galaxy-plot-1.png" alt="Galaxy simulation visualization" />
+
+          <div class="card-content">
+            <h3>Galaxy Simulation Analysis</h3>
+            <p>
+              Analyzed simulation snapshots from disk galaxy models to study
+              star formation behavior, gas properties, and time-dependent trends.
+            </p>
+
+            <p class="tools">
+              <strong>Tools:</strong> Python, NumPy, Matplotlib, Pynbody
+            </p>
+          </div>
+        </article>
+
+        <article class="card">
+          <!-- Replace with a real plot -->
+          <img src="assets/galaxy-plot-2.png" alt="Star formation rate plot" />
+
+          <div class="card-content">
+            <h3>Star Formation Rate Visualization</h3>
+            <p>
+              Generated plots and visualizations showing star formation rate
+              behavior over time using simulation output data.
+            </p>
+
+            <p class="tools">
+              <strong>Tools:</strong> Python, Matplotlib, Data Analysis
+            </p>
+          </div>
+        </article>
+
+        <article class="card">
+          <!-- Replace with your poster preview image -->
+          <img src="assets/poster-preview.jpg" alt="Research poster preview" />
+
+          <div class="card-content">
+            <h3>Research Poster</h3>
+            <p>
+              Presented computational astrophysics research through a poster and
+              conference materials.
+            </p>
+
+            <a href="assets/poster.pdf" target="_blank" class="text-link">
+              View Poster PDF
+            </a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="projects" class="section accent-section">
+      <h2>Scientific Computing Projects</h2>
+
+      <p>
+        These projects demonstrate my experience using programming to solve and
+        visualize physics problems.
+      </p>
+
+      <div class="project-list">
+        <article class="project-card">
+          <h3>C++ Damped Harmonic Oscillator</h3>
+
+          <p>
+            A numerical simulation of a damped driven oscillator using C++.
+            The project models position, velocity, and energy over time and
+            compares numerical behavior with expected physical trends.
+          </p>
+
+          <p class="tools">
+            <strong>Concepts:</strong> ODEs, numerical integration, energy analysis
+          </p>
+
+          <p class="tools">
+            <strong>Tools:</strong> C++, Python/Matplotlib for visualization
+          </p>
+
+          <!-- Replace # with GitHub repo link if available -->
+          <a href="#" class="text-link">GitHub Repository</a>
+        </article>
+
+        <article class="project-card">
+          <h3>1D Heat Equation Solver</h3>
+
+          <p>
+            A computational model for solving the one-dimensional heat equation
+            using finite difference methods and tridiagonal matrix techniques.
+          </p>
+
+          <p class="tools">
+            <strong>Concepts:</strong> PDEs, boundary conditions, numerical stability
+          </p>
+
+          <p class="tools">
+            <strong>Tools:</strong> C++, Python visualization
+          </p>
+
+          <a href="#" class="text-link">GitHub Repository</a>
+        </article>
+
+        <article class="project-card">
+          <h3>2D Electrostatic Potential Solver</h3>
+
+          <p>
+            A relaxation-method solver for Laplace’s equation in two dimensions,
+            used to model electric potential and electric fields for conducting
+            geometries.
+          </p>
+
+          <p class="tools">
+            <strong>Concepts:</strong> Laplace’s equation, relaxation methods, electric fields
+          </p>
+
+          <p class="tools">
+            <strong>Tools:</strong> C++, Python visualization
+          </p>
+
+          <a href="#" class="text-link">GitHub Repository</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="reports" class="section">
+      <h2>Lab Reports and Academic Writing</h2>
+
+      <p>
+        Selected lab reports and technical writing samples from my physics
+        coursework.
+      </p>
+
+      <div class="report-list">
+        <article class="report-card">
+          <h3>Lab Report Title 1</h3>
+
+          <p>
+            Brief description of the experiment, analysis, or physical concept.
+            Replace this with one of your strongest reports.
+          </p>
+
+          <a href="assets/lab-reports/report-1.pdf" target="_blank" class="text-link">
+            View Report PDF
+          </a>
+        </article>
+
+        <article class="report-card">
+          <h3>Lab Report Title 2</h3>
+
+          <p>
+            Brief description of the experiment, analysis, or physical concept.
+            Replace this with another strong academic writing sample.
+          </p>
+
+          <a href="assets/lab-reports/report-2.pdf" target="_blank" class="text-link">
+            View Report PDF
+          </a>
+        </article>
+
+        <article class="report-card">
+          <h3>Lab Report Title 3</h3>
+
+          <p>
+            Brief description of the experiment, analysis, or physical concept.
+          </p>
+
+          <a href="assets/lab-reports/report-3.pdf" target="_blank" class="text-link">
+            View Report PDF
+          </a>
+        </article>
+      </div>
+    </section>
+
+    <section id="conference" class="section accent-section">
+      <h2>Conference and Poster Presentation</h2>
+
+      <div class="conference-layout">
+        <div>
+          <p>
+            I attended a national physics conference where I shared my
+            computational astrophysics work through research presentation
+            materials. This experience helped me communicate technical results
+            to a broader scientific audience.
+          </p>
+
+          <p>
+            This section can include a photo from the conference, a preview of
+            your poster, and a link to the full poster PDF.
+          </p>
+
+          <a href="assets/poster.pdf" target="_blank" class="button primary-button">
+            View Research Poster
+          </a>
+        </div>
+
+        <div class="conference-image">
+          <!-- Replace with your actual conference photo -->
+          <img src="assets/conference-photo.jpg" alt="Conference photo" />
+        </div>
+      </div>
+    </section>
+
+    <section id="hobbies" class="section">
+      <h2>Hobbies and Interests</h2>
+
+      <p>
+        Outside of physics and coding, I enjoy cycling, playing jazz piano and
+        bass guitar, and working on hands-on technical projects. I like problems
+        that combine creativity, analysis, and practical troubleshooting.
+      </p>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <h2>Contact</h2>
+
+      <p>
+        Feel free to contact me about research, projects, internships, or other
+        opportunities.
+      </p>
+
+      <div class="contact-links">
+        <a href="mailto:jack.ghirardelli@gmail.com">Email</a>
+
+        <!-- Replace with your actual GitHub profile -->
+        <a href="https://github.com/YOUR-GITHUB-USERNAME" target="_blank">GitHub</a>
+
+        <!-- Replace with your LinkedIn if you want to include it -->
+        <a href="#" target="_blank">LinkedIn</a>
+
+        <a href="assets/resume.pdf" target="_blank">Resume</a>
+      </div>
     </section>
   </main>
 
